@@ -44,7 +44,7 @@ function Home() {
                </div>
                  
               </div>
-              <div className='mt-10 z-[50] '>
+                <div className='mt-10 z-[50] '>
                  <ul className={`${open?('transition-all duration-300 w-full fixed  h-screen right-0 top-[50px]  bg-[#0065F2] ' ):('w-0 h-0')} `}>
                  
                     <li className="flex flex-col text-white  items-start pt-5  ps-5 space-y-5 ">
@@ -98,8 +98,8 @@ function Home() {
   < section className=' h-auto md:h-[500px] py-[20px] px-[30px] md:pt-[60px] lg:py-[60px] md:px-[50px] lg:px-[120px]  w-full  hero'>
        <div className="flex flex-col-reverse md:flex-row md:justify-between md:items-center  md:px-0">
         <div className='w-full lg:w-[445px] lg:h-[288px] md:gap-[20px] lg:gap-[40px]'>
-          <p className='text-[#0065F2] text-lg md:text-[30px] lg:text-[56px] font-bold tracking-tighter lg:leading-[60px]'> Medium length display headline</p>
-           <p className='leading-7 font-normal text-base md:text-[18px] text-[#0065F2] w-full md:w-[300px]  md:h-[80px] md:mb-2 lg:mb-0  lg:w-[445px] h-auto md:h-[56px]'>      Separated they live in Bookmarks right at the coast of the famous Semantics, large language </p>
+          <p className='text-[#0065F2] py-2 text-lg md:text-[30px] lg:text-[56px] font-bold md:tracking-tighter lg:leading-[60px]'> Medium length display headline</p>
+           <p className='py-2 md:py-0 leading-7 font-normal text-base md:text-[18px] text-[#0065F2] w-full md:w-[300px]  md:h-[80px] md:mb-2 lg:mb-0  lg:w-[445px] h-auto md:h-[56px]'>      Separated they live in Bookmarks right at the coast of the famous Semantics, large language </p>
            <div className='flex items-center justify-between gap-[25px]  md:gap-[10px] lg:gap-[10px] lg:justify-between w-full md:w-[365px] md:h-[48px]  py-5 '>
           <button className='bg-[#0065F2] text-white w-[109px] h-[48px]  py-[12px] px-[20px]'>
           Action
@@ -108,8 +108,9 @@ function Home() {
         </div>
         </div>
           <div className=' '>
-            <img className='w-full h-auto  lg:w-[555px] lg:h-[555px] rounded-full ' src='https://s3-alpha-sig.figma.com/img/467f/ac93/a6b9d2354374e3d17bdcbace83192106?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VfOi~vkyiGRR4oQimqYvPwAK6fYwBKhcqHV~0ux5CdInX4P5bjuS6jnp2t2FJChHpzgEgGYmDF2waq1w49apV7LW34ocQmoprSJGmHf2fzHdOhQ3arvEt4yF2xb8xShENi1TMrjMhV~cX4Gid4AHdsyDfcRXbNft4i~qeQrQIwgHSFFM5v7iRXnhbPCk1vCOKaZNETJQ3lRNvii~okVxCbKNVhcbaGs0sYoXWoMXzhgRGFOnPQnwuj9VdAHA8-c7B8sakWJK9XB1amoWKmKOwIzexuvq4EAaXyuavfBSh-XaYfd4viYapOBOf~GlSI4y2461j~WAAB3OLn46q~kX7w__'/>
-          </div>
+            <img className='w-full h-auto  lg:w-[555px] lg:h-[555px] rounded-full ' src='https://s3-alpha-sig.figma.com/img/467f/ac93/a6b9d2354374e3d17bdcbace83192106?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B4DvqGzczC~nD~d2Pfs1gmUtkJt5Vl~2YCmdXGIfUTldpVwD5VkdwbUfMfjm563aeKU6ITcqq2uxzrtGoHYQed~mGS-j6Xj6F7kIYj-IX4BQHjCTxjVvyrn~vQBgyit3HJulY8eHGN3M7yKMhYisZc39iIZeparu6B1PIXKLvynL8cw1wRmWosE78BG4Erfw79AyGn7agUaLiP4b45lG-zs9whjUqxrJa0NYa~rkmYDphl6JXekgxz-Nt8q5yMmaCbzovh3fghq9CRaRdbWWgZj1usGdr8Cih4c6f2GhvhIOeD2pfgplEtN3ellD2U-c-k9Di6-TIrSq-6QjF23Nng__' />
+       
+        </div>
        </div>
   </section>
   <section className=' flex  flex-col  md:flex-row items-center justify-between px-[30px] gap-[10px] w-full h-auto md:h-[248px] lg:mt-10 py-[60px] md:py-[30px] lg:py-[60px] px-[20px] gap-[10px] md:px-[50px] lg:px-[120px] space-y-9 md:space-y-0 content1'>
@@ -151,14 +152,15 @@ function Home() {
              </ul>
         </div>
           <div className='  '>
-            <img className='w-full h-auto  lg:w-[555px] lg:h-[555px] ' src='https://s3-alpha-sig.figma.com/img/467f/ac93/a6b9d2354374e3d17bdcbace83192106?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VfOi~vkyiGRR4oQimqYvPwAK6fYwBKhcqHV~0ux5CdInX4P5bjuS6jnp2t2FJChHpzgEgGYmDF2waq1w49apV7LW34ocQmoprSJGmHf2fzHdOhQ3arvEt4yF2xb8xShENi1TMrjMhV~cX4Gid4AHdsyDfcRXbNft4i~qeQrQIwgHSFFM5v7iRXnhbPCk1vCOKaZNETJQ3lRNvii~okVxCbKNVhcbaGs0sYoXWoMXzhgRGFOnPQnwuj9VdAHA8-c7B8sakWJK9XB1amoWKmKOwIzexuvq4EAaXyuavfBSh-XaYfd4viYapOBOf~GlSI4y2461j~WAAB3OLn46q~kX7w__'/>
+            <img className='w-full h-auto  lg:w-[555px] lg:h-[555px] ' src='https://s3-alpha-sig.figma.com/img/467f/ac93/a6b9d2354374e3d17bdcbace83192106?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B4DvqGzczC~nD~d2Pfs1gmUtkJt5Vl~2YCmdXGIfUTldpVwD5VkdwbUfMfjm563aeKU6ITcqq2uxzrtGoHYQed~mGS-j6Xj6F7kIYj-IX4BQHjCTxjVvyrn~vQBgyit3HJulY8eHGN3M7yKMhYisZc39iIZeparu6B1PIXKLvynL8cw1wRmWosE78BG4Erfw79AyGn7agUaLiP4b45lG-zs9whjUqxrJa0NYa~rkmYDphl6JXekgxz-Nt8q5yMmaCbzovh3fghq9CRaRdbWWgZj1usGdr8Cih4c6f2GhvhIOeD2pfgplEtN3ellD2U-c-k9Di6-TIrSq-6QjF23Nng__' />
           </div>
        </div>
   </section>
   <section className=' content1 flex flex-col md:flex-row md:justify-between md:items-center  gap-[110px]  min-h-[570px] mb-10  md:mb-0 md:min-h-[500px] py-[20px] px-[20px]  md:py-[60px] md:px-[50px] lg:px-[120px]  w-full   '>
       <div className=' md:w-full h-auto  lg:w-[500px] lg:h-[380px] pt-0 mb-5 '>
-            <img className='w-full h-[400px] lg:h-full ' src='https://s3-alpha-sig.figma.com/img/6eb0/29db/f5de4640d3675f344e48f8ac104b054e?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oCNOJDD-w18dX-gR1cstn3~VWEqsaWQOBWDU0PD9RqnGD-xCRvmsFNiIdsPcUr7TyUu~DGWierztQldhYyJrat5mZRAuR5BaVsA8-0nYPbkbxeVlOj5aNx6XiN6E0J4LMz5JYu6-plTckGTijukOX5eZZ~mBYnUCrTR5AOKWwCvrfRP6YecFEjj8EmkQcemzsvzxr8qWg28utKR~kRBWh03qt2tjBOAA-U1mBXGIE2gEFsJnjO61ULDCSD8JlWuTsDkbkLYqkJHcx6E8DYQ2zj5gIzC48Y6knnHm00cgqwhAtJzTeqIvayPKgon5V2rSVPO7~QOUZoZswrfJvNCGGg__'/>
-        </div>
+            <img className='w-full h-[400px] lg:h-full ' src='https://s3-alpha-sig.figma.com/img/6eb0/29db/f5de4640d3675f344e48f8ac104b054e?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qM-9FffONS6y45cn8Jj94IlItB4HaMvgzYT2FfcXNr69CJbROs3DE3PCIaJoejyQz5sVmhDBe~HRPmtZsZCz1s~H6wspXc5AU9mLLEHjSJ4y~XJs4pwEG0dqh1oIs9OcecY7FaN9oFZaZGzQqXc758DrAQBYrqa2lmULLxCJR~ShNz7vBjYcspPvyKiNJ7znvnWEGWObkYsx~2kNbNWr0wY1nUo5ztO3JPgrXQmn0Dm9t-u0sCGvC0KBPqOXT4RzkvYPQIRmsoZKoFMNYxbWB-CvHcy-k5p9W1e7Im4M6zJIpXqGufrQnGhQOCDZhmC1VpoUqsAmiBUlwiFAPfu0Vw__' />
+            
+      </div>
         <div className='w-full md:w-6/12 lg:w-[445px] lg:h-[256px] md:gap-[20px] lg:gap-[40px]'>
           <p className='text-[#0065F2] text-lg  md:text-[24px] font-bold -tracking-[0.1px] leading-6 h-auto lg:h-[64px]  lg:w-[445px]'> Long headline on two lines to turn your visitors into users and achieve more</p>
            <p className='leading-7 font-normal text-base md:text-[18px] text-[#0065F2] w-full md:w-11/12 md:mt-2 lg:mt-0 lg:w-[445px] h-auto lg:h-[72px] tracking-[0.1px]'> Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean Separated they live in Bookmarks right at the coast </p>
@@ -178,7 +180,8 @@ function Home() {
              <p className='text-base md:text-[16px] lg:text-[18px] font-normal leading-7 w-full lg:w-[286px]  lg:h-[196px] md:h-min-[197px] text-[#0065F2] base-p'> “All base UI elements are made using Nested Symbols and shared styles that are logically connected. Gorgeous, high-quality video sharing on desktop, mobile, tablet. All base UI elements are made using Nested Symbols”</p> 
             <div className="flex flex-row items-end content-end w-[300px] h-[120px] ">
               <div className=' h-[120px] gap-[16px] flex flex-col   pt-10 md:pt-5 lg:pt-0'>
-                <img className='rounded-full w-[60px] h-[60px]' src='https://s3-alpha-sig.figma.com/img/ed2b/47b9/0a6fe38f95709fdd2e0a6703f37961d7?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ODyr-wN7d77DbMUWVRsOzc4LbMNHD1htguq6nG2lSUYjpX11FsuwyJz1HR0rf1txpYaFvoaFyP6TEVJNXFwqRhyT8YsuM1r8fNGN1WRC9w7x1AHiGr8vRj5mroqvjOV4VMk4ZgbEvOCCCZB2xrN6kf8ulsNl23E6NXWjKaFvxDKe272VpikHwjIlp2bWL6HOT1Om4wdDFKyUG0VgrM-N4aaz0XlbKJEtWGoE9QmXwZcDvD-7G6ZuUrFzFGrFhbL4gmd3iTtp4F1rQzXYcyh8ax3jbEXOU8CdZLCFiwX2~kBv1wyRxFMb4CCedS~9EuM8i-azOPmHKBFM8D6kqnCU6w__' alt='social'/>
+                <img className='rounded-full w-[60px] h-[60px]' src='https://s3-alpha-sig.figma.com/img/ed2b/47b9/0a6fe38f95709fdd2e0a6703f37961d7?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DtOb7cXq9WcXA05drUn66PUdCOnqqYz-6TQ1fZ8Y57AKoQX3BHvaDE1E16bhk0vco1GljIkDkO5gJh6STv3tL01fNlTzOgX4B8yLHChH67Dzp8Me9f-qpuw9fmV2F-shEwYibS4Cr7zq5qRZYNWcIurSihk9jJoZ5EAxVnOB51uwVHCTt0gs9oE1m7QfViBuF~e3fV3g6fwBQaxASkbmB2ZfgFglpjfuSeX6InPNbQPnGOf5~xKlxLkEgI36SfPM5PyjDrgYrS~R9C8vvZBSEUQg~UbLjyQDI5NRmn5rWcCk6lZ25AKw62XECoJ86G-yZxkiGAdz9Zh4~zl9mTKvVQ__' alt='social'/>
+                
                  <div>
                   <p className='text-[16px] md:text-[14px] lg:text-[16px] tracking-[0.01px] leading-7 font-medium text-[#0065F2]'> Name Surname</p>
                   <p className='text-[14px] md:text-[11px] lg:text-[14px] tracking-[0.01px] leading-7 font-normal text-[#0065F2]'> Description</p>
@@ -197,7 +200,8 @@ function Home() {
              <p className='base-p text-base md:text-[16px] lg:text-[18px] font-normal leading-7 w-full lg:w-[286px]  lg:h-[196px] md:h-min-[197px] text-[#0065F2] '> “All base UI elements are made using Nested Symbols and shared styles that are logically connected. Gorgeous, high-quality video sharing on desktop, mobile, tablet. All base UI elements are made using Nested Symbols”</p> 
             <div className="flex flex-row items-end w-[300px] h-[120px] ">
             <div className=' h-[120px] gap-[16px] flex flex-col   pt-10 md:pt-5 lg:pt-0'>
-                <img className='rounded-full w-[60px] h-[60px]' src='https://s3-alpha-sig.figma.com/img/ed2b/47b9/0a6fe38f95709fdd2e0a6703f37961d7?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ODyr-wN7d77DbMUWVRsOzc4LbMNHD1htguq6nG2lSUYjpX11FsuwyJz1HR0rf1txpYaFvoaFyP6TEVJNXFwqRhyT8YsuM1r8fNGN1WRC9w7x1AHiGr8vRj5mroqvjOV4VMk4ZgbEvOCCCZB2xrN6kf8ulsNl23E6NXWjKaFvxDKe272VpikHwjIlp2bWL6HOT1Om4wdDFKyUG0VgrM-N4aaz0XlbKJEtWGoE9QmXwZcDvD-7G6ZuUrFzFGrFhbL4gmd3iTtp4F1rQzXYcyh8ax3jbEXOU8CdZLCFiwX2~kBv1wyRxFMb4CCedS~9EuM8i-azOPmHKBFM8D6kqnCU6w__' alt='social'/>
+            <img className='rounded-full w-[60px] h-[60px]' src='https://s3-alpha-sig.figma.com/img/ed2b/47b9/0a6fe38f95709fdd2e0a6703f37961d7?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DtOb7cXq9WcXA05drUn66PUdCOnqqYz-6TQ1fZ8Y57AKoQX3BHvaDE1E16bhk0vco1GljIkDkO5gJh6STv3tL01fNlTzOgX4B8yLHChH67Dzp8Me9f-qpuw9fmV2F-shEwYibS4Cr7zq5qRZYNWcIurSihk9jJoZ5EAxVnOB51uwVHCTt0gs9oE1m7QfViBuF~e3fV3g6fwBQaxASkbmB2ZfgFglpjfuSeX6InPNbQPnGOf5~xKlxLkEgI36SfPM5PyjDrgYrS~R9C8vvZBSEUQg~UbLjyQDI5NRmn5rWcCk6lZ25AKw62XECoJ86G-yZxkiGAdz9Zh4~zl9mTKvVQ__' alt='social'/>
+                
                  <div>
                   <p className='text-[16px] md:text-[14px] lg:text-[16px] tracking-[0.01px] leading-7 font-medium text-[#0065F2]'> Name Surname</p>
                   <p className='text-[14px] md:text-[11px] lg:text-[14px] tracking-[0.01px] leading-7 font-normal text-[#0065F2]'> Description</p>
@@ -216,7 +220,8 @@ function Home() {
              <p className='base-p text-base md:text-[16px] lg:text-[18px] font-normal leading-7 w-full lg:w-[286px]  lg:h-[196px] md:h-min-[197px] text-[#0065F2] '> “All base UI elements are made using Nested Symbols and shared styles that are logically connected. Gorgeous, high-quality video sharing on desktop, mobile, tablet. All base UI elements are made using Nested Symbols”</p> 
             <div className="flex flex-row items-end w-[300px] h-[120px] content-end ">
             <div className=' h-[120px] gap-[16px] flex flex-col   pt-10 md:pt-5 lg:pt-0'>
-                <img className='rounded-full w-[60px] h-[60px]' src='https://s3-alpha-sig.figma.com/img/ed2b/47b9/0a6fe38f95709fdd2e0a6703f37961d7?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ODyr-wN7d77DbMUWVRsOzc4LbMNHD1htguq6nG2lSUYjpX11FsuwyJz1HR0rf1txpYaFvoaFyP6TEVJNXFwqRhyT8YsuM1r8fNGN1WRC9w7x1AHiGr8vRj5mroqvjOV4VMk4ZgbEvOCCCZB2xrN6kf8ulsNl23E6NXWjKaFvxDKe272VpikHwjIlp2bWL6HOT1Om4wdDFKyUG0VgrM-N4aaz0XlbKJEtWGoE9QmXwZcDvD-7G6ZuUrFzFGrFhbL4gmd3iTtp4F1rQzXYcyh8ax3jbEXOU8CdZLCFiwX2~kBv1wyRxFMb4CCedS~9EuM8i-azOPmHKBFM8D6kqnCU6w__' alt='social'/>
+            <img className='rounded-full w-[60px] h-[60px]' src='https://s3-alpha-sig.figma.com/img/ed2b/47b9/0a6fe38f95709fdd2e0a6703f37961d7?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DtOb7cXq9WcXA05drUn66PUdCOnqqYz-6TQ1fZ8Y57AKoQX3BHvaDE1E16bhk0vco1GljIkDkO5gJh6STv3tL01fNlTzOgX4B8yLHChH67Dzp8Me9f-qpuw9fmV2F-shEwYibS4Cr7zq5qRZYNWcIurSihk9jJoZ5EAxVnOB51uwVHCTt0gs9oE1m7QfViBuF~e3fV3g6fwBQaxASkbmB2ZfgFglpjfuSeX6InPNbQPnGOf5~xKlxLkEgI36SfPM5PyjDrgYrS~R9C8vvZBSEUQg~UbLjyQDI5NRmn5rWcCk6lZ25AKw62XECoJ86G-yZxkiGAdz9Zh4~zl9mTKvVQ__' alt='social'/>
+                
                  <div>
                   <p className='text-[16px] md:text-[14px] lg:text-[16px] tracking-[0.01px] leading-7 font-medium text-[#0065F2]'> Name Surname</p>
                   <p className='text-[14px] md:text-[11px] lg:text-[14px] tracking-[0.01px] leading-7 font-normal text-[#0065F2]'> Description</p>
